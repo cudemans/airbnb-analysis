@@ -6,9 +6,9 @@ The project consists of two notebooks: `seattle-analysis.ipynb` and `boston-anal
 
 In order to broaden this to the city of your choosing, find the datasets [here](http://insideairbnb.com/get-the-data.html). For each city, the required datasets are:
 
-- `listings.csv`
-- `calendar.csv.gz`
-- `neighbourhoods.geojson`
+- `listings.csv` - Basic information about the property and owner, including its location, and its availability over time
+- `calendar.csv.gz` - Includes information about when the availability and price per day
+- `neighbourhoods.geojson` - Includes geographical data for the city's neighbourhoods
 
 ## Required packages
 
@@ -22,3 +22,12 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import train_test_split
 ```
+
+## Investigation
+
+The notebooks have been structured in such a way to answer several questions:
+
+1. What times of year are most expensive?
+2. What times of year are the majority of properties available for rent?
+3. Which factors affect listing prices?
+4. What factors affect a property's rating?
