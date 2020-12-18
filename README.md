@@ -1,13 +1,13 @@
 # Airbnb analysis
 
-The purpose of this project is to create a pipleline for analysing Airbnb data for any city. It provides a backbone for analysis through a series of functions that prepare the data, analyse and visualizse, and clean it for furhter modeling. A blog post with full results can be found [here]()
+The purpose of this project is to create a pipleline for analysing Airbnb data for any city. It provides a backbone for analysis through a series of functions that prepare the data, analyze and visualize, and clean it for further modeling. A blog post with full results can be found [here](https://chrisudemans.medium.com/airbnb-jut-ipoed-heres-what-its-footprint-looks-like-85301399b2a3).
 
-The project consists of two notebooks: `seattle-analysis.ipynb` and `boston-analysis.ipynb`. Each notebook analyses the data from the respective cities.
+The project consists of two notebooks: `seattle-analysis.ipynb` and `boston-analysis.ipynb`. Each notebook analyzes the data from the respective cities.
 
 In order to broaden this to the city of your choosing, find the datasets [here](http://insideairbnb.com/get-the-data.html). For each city, the required datasets are:
 
 - `listings.csv` - Information about the property and owner, including its location, and its availability over time
-- `calendar.csv.gz` - Information about when the availability and price per day
+- `calendar.csv.gz` - Information about when the property is availabile and price per day
 - `neighbourhoods.geojson` - Geographical data for the city's neighbourhoods
 
 ## Required imports and packages
@@ -35,7 +35,7 @@ The notebooks have been structured to answer several questions:
 
 #### Seattle
 
-1. The peak in prices came during the summer months. Year on year prices were significantly higher at the beginning of 2017 than the previous year.
+1. The peak in prices came during the summer months. Year-on-year prices were significantly higher at the beginning of 2017 than the previous year.
 2. For most neighborhoods, the mean availability was more than 50%, with a number of exceptions. Some neighborhoods including Greenwood, Genesee, and Montlake only reached these these levels of availability one or two months a year.
 3. Highest correlations with the price of nightly rental include the number of people a property can accomodate, the number of bedrooms a property includes, how big the property is, and the number of beds.
 4. Highest correlations to how well-rated a property is include other review metrics those that relate to value for money, cleanliness, and the accuracy of the listing.
