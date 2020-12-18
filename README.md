@@ -43,6 +43,6 @@ The notebooks have been structured to answer several questions:
 #### Boston
 
 1. October 2016 appeared to be the most expensive in the dataset, though there was another peak in mid-April 2017. Unlike in Seattle, prices fell year on year.
-2. Properties in Boston were available less than those in Sealle. A significant number of the city's neighborhoods saw availability rates of less than 50% for the majority of the year.
+2. Properties in Boston were available less than those in Seattle. A significant number of the city's neighborhoods saw availability rates of less than 50% for the majority of the year.
 3. Highest correlations with the price of nightly rental include the size of the property, how many people it accomodates, and the number of beds a property has.
 4. Highest correlations to how well-rated a property is include other review metrics those that relate to value for money, cleanliness, and the accuracy of the listing.
