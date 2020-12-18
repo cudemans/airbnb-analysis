@@ -1,8 +1,8 @@
 # Airbnb analysis
 
-The purpose of this project is to create a pipleline for analysing Airbnb data for any city. It provides a backbone for analysis through a series of functions that prepare the data, analyze and visualize, and clean it for further modeling. A blog post with full results can be found [here](https://chrisudemans.medium.com/airbnb-jut-ipoed-heres-what-its-footprint-looks-like-85301399b2a3).
+The purpose of this project is to create a pipleline for analysing Airbnb data for any city. It provides a backbone for analysis through a series of functions that prepare the data, analyze and visualize, and clean it for further modeling.
 
-The project consists of two notebooks: `seattle-analysis.ipynb` and `boston-analysis.ipynb`. Each notebook analyzes the data from the respective cities.
+The project consists of two notebooks: `seattle-analysis.ipynb` and `boston-analysis.ipynb`. Each notebook analyzes the data from the respective cities. A blog post with full results of the Seattle analysis can be found [here](https://chrisudemans.medium.com/airbnb-jut-ipoed-heres-what-its-footprint-looks-like-85301399b2a3).
 
 In order to broaden this to the city of your choosing, find the datasets [here](http://insideairbnb.com/get-the-data.html). For each city, the required datasets are:
 
